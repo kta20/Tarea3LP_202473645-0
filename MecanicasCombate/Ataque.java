@@ -10,4 +10,7 @@ public abstract class Ataque {
         this.tipo= tipo;
     }
     public abstract int ejecutar(Javaling atacante, Javaling defensor);
+    public String getNombre() {
+    return nombre;
+    }
 }

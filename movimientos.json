@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Golpe Suave",
+    "categoria": "Físico",
+    "elemento": "Volador",
+    "potencia": 20
+  },
+  {
+    "nombre": "Golpe Medio",
+    "categoria": "Físico",
+    "elemento": "Fuego",
+    "potencia": 45
+  },
+  {
+    "nombre": "Rayo Brutal",
+    "categoria": "Especial",
+    "elemento": "Eléctrico",
+    "potencia": 100
+  },
+  {
+    "nombre": "Hidro Impacto",
+    "categoria": "Especial",
+    "elemento": "Agua",
+    "potencia": 90
+  },
+  {
+    "nombre": "Hoja Fuerte",
+    "categoria": "Físico",
+    "elemento": "Planta",
+    "potencia": 90
+  },
+  {
+    "nombre": "Danza Espada",
+    "categoria": "Estado",
+    "stat_afectado": "ataque",
+    "multiplicador": 2.0
+  },
+  {
+    "nombre": "Concentracion",
+    "categoria": "Estado",
+    "stat_afectado": "ataque_especial",
+    "multiplicador": 1.5
+  }
+]

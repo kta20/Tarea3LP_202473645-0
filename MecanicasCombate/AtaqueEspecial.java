@@ -17,7 +17,7 @@ public class AtaqueEspecial extends Ataque{
         if(atacante.getTipo()== this.tipo) {
             stab= 1.5;
         }
-        double daño= (potencia*((double) atacante.getAtaqueEspecial()/defensor.getDefensaEspecial())*multiplicadorTipo*stab) / 2.0;
+        double daño= (potencia*((double) atacante.getAtaqueEspecial()/defensor.getDefensaEspecial())*multiplicadorTipo*stab)/ 2.0;
         return (int)daño;
     }
 }

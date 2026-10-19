@@ -16,9 +16,9 @@ public class AtaqueEstado extends Ataque {
     ) {
         super(nombre, tipo);
 
-        this.statAfectado = statAfectado;
-        this.multiplicador = multiplicador;
-        this.fueUsado = false;
+        this.statAfectado= statAfectado;
+        this.multiplicador= multiplicador;
+        this.fueUsado= false;
     }
 
     @Override
@@ -27,14 +27,12 @@ public class AtaqueEstado extends Ataque {
         Javaling defensor
     ) {
 
-        if (fueUsado) {
+        if(fueUsado) {
             return 0;
         }
 
         aplicarCambio(atacante);
-
-        fueUsado = true;
-
+        fueUsado= true;
         return 0;
     }
 
@@ -42,67 +40,32 @@ public class AtaqueEstado extends Ataque {
         Javaling atacante
     ) {
 
-        if (statAfectado.equals("ataque")) {
-
-            atacante.modifAtaque(
-                multiplicador
-            );
-
-        } else if (statAfectado.equals("defensa")) {
-
-            atacante.modifDefensa(
-                multiplicador
-            );
-
-        } else if (
-            statAfectado.equals("ataque_especial")
-        ) {
-
-            atacante.modifAtaqueEspecial(
-                multiplicador
-            );
-
-        } else if (
-            statAfectado.equals("defensa_especial")
-        ) {
-
-            atacante.modifDefensaEspecial(
-                multiplicador
-            );
-
-        } else if (
-            statAfectado.equals("velocidad")
-        ) {
-
-            atacante.modifVelocidad(
-                multiplicador
-            );
+        if(statAfectado.equals("ataque")) {
+            atacante.modifAtaque(multiplicador);
+        } else if(statAfectado.equals("defensa")) {
+            atacante.modifDefensa(multiplicador);
+        } else if(statAfectado.equals("ataque_especial")){
+            atacante.modifAtaqueEspecial(multiplicador);
+        } else if(statAfectado.equals("defensa_especial")){
+            atacante.modifDefensaEspecial(multiplicador);
+        } else if(statAfectado.equals("velocidad")){
+            atacante.modifVelocidad(multiplicador);
         }
     }
 
-    public boolean estaUsado() {
+    public boolean estaUsado(){
         return fueUsado;
     }
-
     public void reiniciarUso() {
-        fueUsado = false;
+        fueUsado= false;
     }
-
     public String getStatAfectado() {
         return statAfectado;
     }
-
     public double getMultiplicador() {
         return multiplicador;
     }
-
     public AtaqueEstado copiar() {
-
-        return new AtaqueEstado(
-            nombre,
-            tipo,
-            statAfectado,
-            multiplicador
-        );
+        return new AtaqueEstado(nombre,tipo,statAfectado,multiplicador);
     }
 }

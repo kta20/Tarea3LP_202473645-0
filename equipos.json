@@ -1,114 +1,114 @@
 [
-  {
-    "nombre_equipo": "Team Estado",
-    "javalings": [
-      {
-        "nombre": "Aqualento",
-        "tipo": "Agua",
-        "stats": {
-          "hp": 200,
-          "ataque": 30,
-          "defensa": 100,
-          "ataque_especial": 30,
-          "defensa_especial": 100,
-          "velocidad": 100
-        },
-        "movimientos": [
-          "Golpe Suave",
-          "Danza Espada",
-          "Golpe Medio"
+    {
+        "nombre_equipo": "Team Magma",
+        "javalings": [
+            {
+                "nombre": "Talonflame",
+                "tipo": "Fuego",
+                "stats": {
+                    "hp": 78,
+                    "ataque": 81,
+                    "defensa": 71,
+                    "ataque_especial": 74,
+                    "defensa_especial": 69,
+                    "velocidad": 126
+                },
+                "movimientos": [
+                    "Pájaro Osado",
+                    "Golpe Medio",
+                    "Danza Espada"
+                ]
+            },
+            {
+                "nombre": "Charizard",
+                "tipo": "Fuego",
+                "stats": {
+                    "hp": 90,
+                    "ataque": 84,
+                    "defensa": 78,
+                    "ataque_especial": 109,
+                    "defensa_especial": 85,
+                    "velocidad": 100
+                },
+                "movimientos": [
+                    "Golpe Medio",
+                    "Rayo Brutal",
+                    "Danza Espada"
+                ]
+            },
+            {
+                "nombre": "Terron",
+                "tipo": "Tierra",
+                "stats": {
+                    "hp": 100,
+                    "ataque": 95,
+                    "defensa": 105,
+                    "ataque_especial": 60,
+                    "defensa_especial": 80,
+                    "velocidad": 65
+                },
+                "movimientos": [
+                    "Golpe Suave",
+                    "Golpe Medio",
+                    "Danza Espada"
+                ]
+            }
         ]
-      },
-      {
-        "nombre": "Plantin",
-        "tipo": "Planta",
-        "stats": {
-          "hp": 180,
-          "ataque": 35,
-          "defensa": 100,
-          "ataque_especial": 35,
-          "defensa_especial": 100,
-          "velocidad": 70
-        },
-        "movimientos": [
-          "Golpe Suave",
-          "Danza Espada",
-          "Golpe Medio"
+    },
+    {
+        "nombre_equipo": "Team Aqua",
+        "javalings": [
+            {
+                "nombre": "Aquarion",
+                "tipo": "Agua",
+                "stats": {
+                    "hp": 100,
+                    "ataque": 70,
+                    "defensa": 90,
+                    "ataque_especial": 100,
+                    "defensa_especial": 95,
+                    "velocidad": 80
+                },
+                "movimientos": [
+                    "Hidro Impacto",
+                    "Golpe Suave",
+                    "Concentracion"
+                ]
+            },
+            {
+                "nombre": "Voltazo",
+                "tipo": "Eléctrico",
+                "stats": {
+                    "hp": 85,
+                    "ataque": 75,
+                    "defensa": 70,
+                    "ataque_especial": 120,
+                    "defensa_especial": 85,
+                    "velocidad": 110
+                },
+                "movimientos": [
+                    "Rayo Brutal",
+                    "Golpe Suave",
+                    "Concentracion"
+                ]
+            },
+            {
+                "nombre": "Plantin",
+                "tipo": "Planta",
+                "stats": {
+                    "hp": 95,
+                    "ataque": 90,
+                    "defensa": 85,
+                    "ataque_especial": 80,
+                    "defensa_especial": 90,
+                    "velocidad": 70
+                },
+                "movimientos": [
+                    "Hoja Fuerte",
+                    "Golpe Suave",
+                    "Danza Espada"
+                ]
+            }
         ]
-      },
-      {
-        "nombre": "Terron",
-        "tipo": "Tierra",
-        "stats": {
-          "hp": 190,
-          "ataque": 40,
-          "defensa": 110,
-          "ataque_especial": 30,
-          "defensa_especial": 100,
-          "velocidad": 60
-        },
-        "movimientos": [
-          "Golpe Suave",
-          "Danza Espada",
-          "Golpe Medio"
-        ]
-      }
-    ]
-  },
-  {
-    "nombre_equipo": "Team Cambio",
-    "javalings": [
-      {
-        "nombre": "Debilucho",
-        "tipo": "Agua",
-        "stats": {
-          "hp": 200,
-          "ataque": 30,
-          "defensa": 100,
-          "ataque_especial": 30,
-          "defensa_especial": 100,
-          "velocidad": 90
-        },
-        "movimientos": [
-          "Golpe Suave",
-          "Concentracion",
-          "Golpe Medio"
-        ]
-      },
-      {
-        "nombre": "Voltazo",
-        "tipo": "Eléctrico",
-        "stats": {
-          "hp": 180,
-          "ataque": 80,
-          "defensa": 90,
-          "ataque_especial": 120,
-          "defensa_especial": 90,
-          "velocidad": 110
-        },
-        "movimientos": [
-          "Rayo Brutal",
-          "Concentracion",
-          "Golpe Suave"
-        ]
-      },
-      {
-        "nombre": "Aquarion",
-        "tipo": "Agua",
-        "stats": {
-          "hp": 200,
-          "ataque": 70,
-          "defensa": 100,
-          "ataque_especial": 90,
-          "defensa_especial": 100,
-          "velocidad": 80
-        },
-        "movimientos": [
-          "Hidro Impacto",
-          "Concentracion",
-          "Golpe Suave"
-        ]
-      }
-    ]
-  }
+    }
 ]
